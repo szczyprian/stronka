@@ -6,7 +6,7 @@ p.innerText=0;
 button.innerText = "losuj";
 
 
-document.querySelector('body').append(button);
+document.querySelector('#numerekContainer').append(button);
 
 button.addEventListener('click', function()  {
     

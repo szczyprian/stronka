@@ -1,3 +1,11 @@
 body{
-    background-color: gray;
+    background-color: lightgray;
+}
+#numerek{
+    font-size: 30px;
+    text-align: center;
+}
+
+button{
+    width: 100%;
 }
