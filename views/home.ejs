@@ -1,18 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Pierwsza strona</title>
-</head>
-<body>
+<%- include('partials/base') %>
+
+    <%- include('partials/navbar') %>
+
     <h1>Witajcie To moja pierwsza stronka w necie</h1>
     <p> Tu możesz wylosować sobie losowy numerek od 1 do 10 jeeeeej!!!!!</p>
     <p id="numerek"></p>
-    <br>
-    <a href="/gra">Tu se w kloenosc zagraj</a>
+
     <script src="/script.js"></script>
+    
 </body>
 </html>
